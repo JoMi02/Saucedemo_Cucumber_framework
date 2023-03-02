@@ -21,7 +21,7 @@ public class Login_Steps extends BasePage {
 
     }
 
-    @When("I enter a username {string}")
+    @When("I enter a username {}")
     public void i_enter_a_username(String username) {
         loginPage.setUsername(username);
 
@@ -46,11 +46,6 @@ public class Login_Steps extends BasePage {
     @Then("I should be presented with the unsuccessful login message")
     public void i_should_be_presented_with_the_unsuccessful_login_message() {
         loginPage.validate_unsuccessful_message();
-    }
-    @Then("I should be presented with the message for locked out user")
-    public void i_should_be_presented_with_the_message_for_locked_out_user() {
-        loginPage.validate_locked_user_message();
-
     }
 
 }

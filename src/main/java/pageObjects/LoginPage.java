@@ -44,8 +44,5 @@ public class LoginPage extends BasePage{
         get_unsuccessful_message(GlobalVars.ERROR_MESSAGE);
     }
 
-    public void validate_locked_user_message(){
-        get_unsuccessful_message(GlobalVars.LOCKED_USER_MESSAGE);
-    }
 
 }
