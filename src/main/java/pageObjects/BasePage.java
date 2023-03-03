@@ -50,9 +50,9 @@ public class BasePage {
        return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-
-
-
+    public boolean isElementDisplayed(WebElement element){
+       return element.isDisplayed();
+    }
 
 
 

@@ -7,7 +7,7 @@ Feature: Saucedemo - Login Page
 
   Scenario: Validate Successful Login
 
-    When I enter a username "standard_user"
+    When I enter a username standard_user
     And I enter a password secret_sauce
     And I click on the login button
     Then I should navigate on product page
