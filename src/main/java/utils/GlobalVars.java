@@ -6,5 +6,5 @@ public class GlobalVars {
     public static final String ALL_ITEMS_PAGE_URL = "https://www.saucedemo.com/inventory.html";
     public static final String ERROR_MESSAGE = "Epic sadface: Username and password do not match any user in this service";
 
-    public static final String SAUCELABS_PAGE = "https://saucelabs.com/";
+    public static final String SAUCEDEMO_STEP_ONE = "https://www.saucedemo.com/checkout-step-one.html";
 }

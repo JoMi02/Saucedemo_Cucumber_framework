@@ -30,7 +30,7 @@ public class HamburgerMenu_Page extends BasePage {
         waitForElementAndClick(logout_button);
     }
     public void navigate_On_SauceLabs_Page(){
-        navigateTo_URL(GlobalVars.SAUCELABS_PAGE);
+        navigateTo_URL(GlobalVars.SAUCEDEMO_LOGIN_PAGE);
     }
 
 }

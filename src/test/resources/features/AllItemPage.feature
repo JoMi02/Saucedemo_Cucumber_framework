@@ -14,9 +14,9 @@ Feature: All Item Page
     And I click on remove button
     Then I verify change on shopping cart button
 
-    Scenario: Verify social network links
-      And I verify facebook link
-      And I verify twitter link
-      Then I verify linkedin link
+  Scenario: Verify social network links
+    And I verify facebook link
+    And I verify twitter link
+    Then I verify linkedin link
 
 

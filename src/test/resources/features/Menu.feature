@@ -1,5 +1,5 @@
 @menu
-Feature: Hamburger Menu
+Feature: Hamburger Menu Page
 
   Background:
     Given I access the saucedemo login page

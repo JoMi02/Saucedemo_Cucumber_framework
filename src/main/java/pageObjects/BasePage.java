@@ -54,6 +54,11 @@ public class BasePage {
        return element.isDisplayed();
     }
 
+    protected boolean waitForUrlChange(String url) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(GlobalVars.DEFAULT_EXPLICIT_TIMEOUT));
+        return wait.until(ExpectedConditions.urlToBe(url));
+    }
+
 
 
 }
